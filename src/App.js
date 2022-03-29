@@ -14,6 +14,7 @@ function App() {
         <Route path ="/" element={<Home/>}></Route>
         <Route path="/friends" element ={<Friends></Friends>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        {/* the no found route must be at the last element, and the below route is for if someone search for any undefined route path */}
         <Route path="*" element= {<NotFound></NotFound>}></Route>
       </Routes>
     </div>
