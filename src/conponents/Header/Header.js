@@ -10,7 +10,7 @@ const Header = () => {
       <Link to="/">Home</Link>
       <Link to="/friends">Friends</Link>
       <Link to="/about">About</Link>
-
+        <Link to="./posts">Posts</Link>
       {/* display active route */}
       <h4>this is display active route</h4>
       <CustomLink to = "/">Home</CustomLink>
