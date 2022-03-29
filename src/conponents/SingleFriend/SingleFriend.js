@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const SingleFriend = (props) => {
     const {name, username, id} = props.friend;
     // nested router
+    //==============================
     const navigate = useNavigate()
 
     const showFriendDetail = () =>{

@@ -5,11 +5,13 @@ import Friends from './conponents/Friends/Friends';
 import About from './conponents/About/About';
 import { Route, Routes } from 'react-router-dom';
 import NotFound from './conponents/NoteFound/NotFound';
+import Header from './conponents/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h2>Welcome to my routing website.</h2>
+    {/* if we write any component above router, it wil be common for every path */}
+      <Header></Header>
       <Routes>
         <Route path ="/" element={<Home/>}></Route>
         <Route path="/friends" element ={<Friends></Friends>}></Route>
